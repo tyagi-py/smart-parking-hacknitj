@@ -9,7 +9,7 @@ import logging
 def main():
     logging.basicConfig(level=logging.INFO)
 
-    image_file = "images/parking_lot_1.png"
+    image_file = "images/new.png"
     data_file = "data/coordinates_1.yml"
     start_frame = 10
 
@@ -22,7 +22,7 @@ def main():
         points = yaml.load(data)
         print(type(points))
         print(points)
-        detector = MotionDetector("videos/parking_lot_1.mp4", points, int(start_frame))
+        detector = MotionDetector("videos/new.mp4", points, int(start_frame))
         detector.detect_motion()
 
 
