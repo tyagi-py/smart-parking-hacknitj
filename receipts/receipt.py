@@ -38,5 +38,5 @@ def gen_receipt(car_no='HR 02 AK 9064',mins = 50):
     pdf.gen(invoice_no+".pdf", generate_qr_code=True)
     return invoice_no
 
-gen_receipt()
+
 
