@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 # Open a sample video available in sample-videos
-vcap = cv2.VideoCapture(0)
+vcap = cv2.VideoCapture(1)
 #if not vcap.isOpened():
 #    print "File Cannot be Opened"
 
@@ -12,10 +12,10 @@ while True:
     # print cap.isOpened(), ret
     if frame is not None:
         # Display the resulting frame
-        cv2.imshow('frame', frame)
+        cv2.imshow('video', frame)
         # Press q to close the video windows before it ends if you want
         if cv2.waitKey(22) & 0xFF == ord('q'):
-            cv2.imwrite("images/hack.png", frame)
+            cv2.imwrite("images/2hacknitj.png", frame)
             break
     else:
         print ("Frame is None")
