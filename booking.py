@@ -34,6 +34,8 @@ def window():
     e = Entry(root)
     e.pack()
     e.focus_set()
+    txtlabel  = Label(root,text = "Enter Time for Parking in minute")
+    txtlabel.pack(side=TOP)
     b = Button(root,text='okay',command=printtext)
     b.pack(side='bottom')
     root.mainloop()
