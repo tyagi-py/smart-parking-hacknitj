@@ -1,5 +1,5 @@
 # smart-parking-hacknitj
-## smart parking solution created for hackathon at NIT Jalandhar
+## smart parking solution created for hackathon at NIT  Jalandhar
 
 ## Problem
 
